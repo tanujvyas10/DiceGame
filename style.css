@@ -1,0 +1,91 @@
+.dice{
+    height:100px;
+width:100px;
+top:150px;
+left:350px;
+position:absolute;
+}
+
+#roll
+{
+    top:25%;
+    left:40%;
+    position:absolute;
+}
+
+#hold{
+    top:63%;
+    left:45%;
+    position:absolute;
+}
+
+p{
+    width:100px;
+    height:100px;
+    background-color:black;
+    margin-left:350px;
+}
+h1{
+    color:white;
+}
+body{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat:none;
+}
+#L{
+    background-color:rgb(216, 194, 194);
+    height:400px;
+    width:400px;
+   
+
+    text-align:center;    
+}
+
+.box{
+    float:left;
+}
+#R{
+    background-color:whitesmoke;
+    height:400px;
+    width:400px; 
+    text-align:center;  
+   
+   
+
+   
+}
+#fst{
+    margin-left:auto;
+    
+}
+
+
+.plyr{
+    color:rgb(223, 111, 111);
+   
+}
+.main{
+    background-color:rgb(253, 244, 244);
+height:400px;
+width:800px;    
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-right:300px;
+    margin-left:300px; 
+    box-shadow:3px 3px rgb(201, 187, 187);
+    position:relative;
+   
+}
+
+button{
+    border:none;
+    font-size:30px;
+    background:none;
+
+}
+button:hover{
+    transform:scale(1.05);
+    transition-duration:0.3s;
+}
